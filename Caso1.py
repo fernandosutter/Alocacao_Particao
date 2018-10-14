@@ -8,7 +8,7 @@ from worstfit import Worstfit
 print('Best-fit')
 
 tamanho = 10
-memoria = [None] * tamanho
+memoria = [''] * tamanho
 
 memoria[1] = 'A'
 memoria[6] = 'B'
@@ -24,7 +24,7 @@ print(memoria)
 print('Worst-fit')
 
 tamanho = 10
-memoria = [None] * tamanho
+memoria = [''] * tamanho
 
 memoria[1] = 'A'
 memoria[6] = 'B'
@@ -38,11 +38,13 @@ print(memoria)
 print('First-fit')
 
 tamanho = 10
-memoria = [None] * tamanho
+memoria = [''] * tamanho
 
 memoria[1] = 'A'
 memoria[6] = 'B'
 memoria[7] = 'B'
 memoria[8] = 'B'
+
+#Firstfit(memoria, 'C', 1)
 
 print(memoria)
