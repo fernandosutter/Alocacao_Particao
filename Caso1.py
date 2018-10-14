@@ -15,6 +15,7 @@ memoria[6] = 'B'
 memoria[7] = 'B'
 memoria[8] = 'B'
 
+
 print(memoria)
 
 
