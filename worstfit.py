@@ -1,0 +1,4 @@
+# Worst-fit
+
+def worstfit():
+    
