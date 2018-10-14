@@ -1,0 +1,1 @@
+Alocação_Partição
