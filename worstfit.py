@@ -1,4 +1,4 @@
 # Worst-fit
 
-def worstfit():
+def Worstfit(programa, tamanho, partiçãoinicial):
     

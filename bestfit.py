@@ -1,4 +1,4 @@
 # Best-fit
 
-def bestfit():
+def Bestfit(programa, tamanho, partiçãoinicial):
     

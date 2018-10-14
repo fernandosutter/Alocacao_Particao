@@ -1,4 +1,4 @@
 # First-fit
 
-def firstfit():
+def Firstfit(programa, tamanho, partiçãoinicial):
     

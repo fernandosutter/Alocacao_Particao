@@ -1,3 +1,8 @@
+from bestfit import Bestfit
+from firstfit import Firstfit
+from worstfit import Worstfit
+
+
 # Best-fit
 # Setup inicial da memória
 print('Best-fit')
