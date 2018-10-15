@@ -45,6 +45,8 @@ memoria[6] = 'B'
 memoria[7] = 'B'
 memoria[8] = 'B'
 
-#Firstfit(memoria, 'C', 1)
+Firstfit(memoria, 'C', 1)
+Firstfit(memoria, 'D', 2)
+Firstfit(memoria, 'E', 2)
 
 print(memoria)

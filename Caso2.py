@@ -40,5 +40,9 @@ memoria = [''] * tamanho
 memoria[2] = 'A'
 memoria[6] = 'B'
 
+Firstfit(memoria, 'C', 3)
+Firstfit(memoria, 'D', 1)
+Firstfit(memoria, 'E', 2)
+Firstfit(memoria, 'F', 1)
 
 print(memoria)
