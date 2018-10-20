@@ -13,7 +13,10 @@ memoria = [''] * tamanho
 memoria[2] = 'A'
 memoria[6] = 'B'
 
-
+Bestfit(memoria, 'C', 3)
+Bestfit(memoria, 'D', 1)
+Bestfit(memoria, 'E', 2)
+Bestfit(memoria, 'F', 1)
 print(memoria)
 
 

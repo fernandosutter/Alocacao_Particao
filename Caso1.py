@@ -15,7 +15,9 @@ memoria[6] = 'B'
 memoria[7] = 'B'
 memoria[8] = 'B'
 
-
+Bestfit(memoria, 'C', 1)
+Bestfit(memoria, 'D', 2)
+Bestfit(memoria, 'E', 2)
 print(memoria)
 
 
