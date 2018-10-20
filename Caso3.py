@@ -14,6 +14,11 @@ memoria[2] = 'A'
 memoria[6] = 'B'
 memoria[9] = 'G'
 
+Bestfit(memoria, 'C', 2)
+Bestfit(memoria, 'D', 3)
+Bestfit(memoria, 'E', 2)
+Bestfit(memoria, 'F', 1)
+
 print(memoria)
 
 
@@ -27,6 +32,11 @@ memoria = [''] * tamanho
 memoria[2] = 'A'
 memoria[6] = 'B'
 memoria[9] = 'G'
+
+Worstfit(memoria, 'C', 2)
+Worstfit(memoria, 'D', 3)
+Worstfit(memoria, 'E', 2)
+Worstfit(memoria, 'F', 1)
 
 print(memoria)
 

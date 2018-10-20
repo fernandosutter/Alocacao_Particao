@@ -33,6 +33,10 @@ memoria[6] = 'B'
 memoria[7] = 'B'
 memoria[8] = 'B'
 
+Worstfit(memoria, 'C', 1)
+Worstfit(memoria, 'D', 2)
+Worstfit(memoria, 'E', 2)
+
 print(memoria)
 
 # First-fit
