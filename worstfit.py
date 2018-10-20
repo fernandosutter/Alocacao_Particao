@@ -20,7 +20,6 @@ def Worstfit(memoria, programa, tamanho):
         if memoria[i] == '' and i == 9:
             space.append(r)
         
-    
     aux = []
     vazio = 0
     sub = False
@@ -35,17 +34,13 @@ def Worstfit(memoria, programa, tamanho):
         if memoria[i] == '' and i == 9:
             aux.append(vazio)
     
-
     maior = max(aux)
     alcance = []
-
-    
 
     for j in space:
         if len(j) >= maior:
             alcance = j
-            
-          
+             
     if len(alcance) >= tamanho:
         for h in alcance:
             memoria[h] = programa
@@ -55,5 +50,4 @@ def Worstfit(memoria, programa, tamanho):
     else:
         print("Não é possível alocar o programa " + programa + " na memória!!!")
         
-
     return memoria

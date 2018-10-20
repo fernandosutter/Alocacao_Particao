@@ -16,8 +16,7 @@ def Bestfit(memoria, programa, tamanho):
         if memoria[i] != '':
             if len(r)> 0: 
                 space.append(r)
-                r = [] 
-                  
+                r = []         
         if memoria[i] == '' and i == 9:
             space.append(r) 
     space2 = []
@@ -39,17 +38,13 @@ def Bestfit(memoria, programa, tamanho):
         if memoria[i] == '' and i == 9:
             aux.append(vazio)
     
-
     menor = min(aux)
     alcance = []
-
-    
 
     for j in space:
         if len(j) >= menor:
             alcance = j
-            
-          
+             
     if len(alcance) >= tamanho:
         for h in alcance:
             memoria[h] = programa
@@ -59,7 +54,6 @@ def Bestfit(memoria, programa, tamanho):
     else:
         print("Não é possível alocar o programa " + programa + " na memória!!!")
         
-
     return memoria
 
             

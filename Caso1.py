@@ -2,7 +2,6 @@ from bestfit import Bestfit
 from firstfit import Firstfit
 from worstfit import Worstfit
 
-
 # Best-fit
 # Setup inicial da memória
 print('Best-fit')
@@ -18,8 +17,8 @@ memoria[8] = 'B'
 Bestfit(memoria, 'C', 1)
 Bestfit(memoria, 'D', 2)
 Bestfit(memoria, 'E', 2)
-print(memoria)
 
+print(memoria)
 
 # Worst-fit
 # Setup inicial da memória
