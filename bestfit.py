@@ -40,13 +40,13 @@ def Bestfit(memoria, programa, tamanho):
             aux.append(vazio)
     
 
-    maior = min(aux)
+    menor = min(aux)
     alcance = []
 
     
 
     for j in space:
-        if len(j) >= maior:
+        if len(j) >= menor:
             alcance = j
             
           
